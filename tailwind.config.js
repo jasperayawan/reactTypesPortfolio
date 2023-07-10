@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     fontFamily: {
-
+      'bebas': ['Bebas Neue', 'sans-serif'],
     },
     fontSize: {
       sm: "0.8rem",
