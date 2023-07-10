@@ -8,7 +8,7 @@ export default function About(){
                 <div>
                     <h1 className="text-slate-800 font-bold text-4xl">Who am I?</h1>
 
-                    <p>Well! I'm sJasper a Full stack Web Developer  I learned how to code when
+                    <p>Well! I'm Jasper a Full stack Web Developer  I learned how to code when
                         I was 18 and now I'm currently 21 years old when I was in 1st year 
                         college we learned with c++ then I learned Web development when I 
                         was in second year college then start to learn with with HTML and 
