@@ -9,11 +9,11 @@ export default function Home(){
                 <div className="absolute top-0 right-10 blur-[165px] circle -z-10 w-[300px] h-[300px] bg-indigo-500 rounded-full"></div>
                 <div className="col-span-1 flex-1 flex flex-col">
                     <div className="flex gap-2">
-                        <span className="text-2xl text-zinc-300">Hi, I'm Jasper</span>
+                        <span className="text-2xl text-slate-600 font-extrabold">Hi, I'm Jasper</span>
                         <MdVerified className="text-indigo-500"/>
                     </div>
-                    <h1 className="text-4xl md:text-6xl font-bebas text-gray-300">Full Stack Developer</h1>
-                    <p className="md:max-w-xl mb-4 font-sm font-semibold text-zinc-400 tracking-wider">
+                    <h1 className="text-4xl md:text-6xl font-bebas text-slate-800">Full Stack Developer</h1>
+                    <p className="md:max-w-xl mb-4 font-sm font-semibold text-slate-600 tracking-wider">
                         Currently 4th year college IT student and working as a 
                         <span className="font-bold text-indigo-500"> Web Developer </span>
                         base in the Philippines. Through this portfolio, I invite you to delve 
