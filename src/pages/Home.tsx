@@ -4,10 +4,10 @@ import JasperImg from '../assets/jass.jpg'
 
 export default function Home(){
     return(
-        <div className="min-h-screen flex justify-center">
-            <div className="w-full mx-auto md:max-w-6xl flex flex-col md:flex-row relative px-4">
+        <div className="flex justify-center">
+            <div className="w-full mx-auto md:max-w-6xl grid md:grid-cols-2 relative px-4 md:gap-24 place-items-center place-content-between">
                 <div className="absolute top-0 right-10 blur-[165px] circle -z-10 w-[300px] h-[300px] bg-indigo-500 rounded-full"></div>
-                <div className="flex flex-col justify-center gap-3">
+                <div className="col-span-1 flex-1 flex flex-col">
                     <div className="flex gap-2">
                         <span className="text-2xl text-zinc-300">Hi, I'm Jasper</span>
                         <MdVerified className="text-indigo-500"/>
@@ -25,7 +25,7 @@ export default function Home(){
                         </a>
                     </div>
                 </div>
-                <div className='flex-grow pt-10 flex justify-center items-center'>
+                <div className=' pt-10 flex justify-center items-center'>
                     <img src={JasperImg} alt='Jasper' className='w-[300px] h-[300px] rounded-full object-center object-cover'/>
                 </div>
             </div>

@@ -9,13 +9,13 @@ export default function Header(){
 
                 <ul className='hidden md:flex flex-row justify-center items-center gap-x-8 font-bebas'>
                     <li>
-                        <Link to='/about' className='uppercase text-zinc-300 hover:text-zinc-600 font-semibold tracking-wider text-xl'>About</Link>
+                        <Link to='/about' className='uppercase text-zinc-300 hover:text-zinc-600 tracking-wider text-sm'>About</Link>
                     </li>
                     <li>
-                        <Link to='/project' className='uppercase text-zinc-300 hover:text-zinc-600 font-semibold tracking-wider text-xl'>Project</Link>
+                        <Link to='/project' className='uppercase text-zinc-300 hover:text-zinc-600 tracking-wider text-sm'>Project</Link>
                     </li>
                     <li>
-                        <Link to='/contact' className='uppercase text-zinc-300 hover:text-zinc-600 font-semibold tracking-wider text-xl'>Contact</Link>
+                        <Link to='/contact' className='uppercase text-zinc-300 hover:text-zinc-600 tracking-wider text-sm'>Contact</Link>
                     </li>
                 </ul>
             </nav>
