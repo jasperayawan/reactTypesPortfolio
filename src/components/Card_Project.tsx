@@ -1,9 +1,18 @@
 
+interface MyComponentProps {
+    image: string,
+    title: string,
+    desc: string,
+}
 
-export default function CardProject(){
+const CardProject: React.FC<MyComponentProps> = ( {image, title, desc} ) => {
     return(
-        <div>
-            
+        <div className="flex flex-col gap-3">
+            <img src={image} alt="" />
+            <h1 className="text-xl font-medium text-slate-700">{title}</h1>
+            <p>{desc}</p>
         </div>
     )
 }
+
+export default CardProject
