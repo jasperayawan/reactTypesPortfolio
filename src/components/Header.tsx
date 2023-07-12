@@ -13,9 +13,9 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+    <div className="">
+      <header className="sticky top-0 z-20 flex h-20 w-full items-center justify-center px-5 xs:px-[50px] xl:px-0">
+        <nav className="w-full flex items-center justify-between p-6 lg:px-8" aria-label="Global">
         <Link to='/' className="logo text-2xl font-bebas text-slate-700"><span className='font-bold'>ジ</span>Jasper.io</Link>
           <div className="flex lg:hidden">
             <button
