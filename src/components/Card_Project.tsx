@@ -1,11 +1,11 @@
 
-interface MyComponentProps {
+interface Props {
     image: string,
     title: string,
     desc: string,
 }
 
-const CardProject: React.FC<MyComponentProps> = ( {image, title, desc} ) => {
+const CardProject: React.FC<Props> = ( {image, title, desc} ) => {
     return(
         <div className="flex flex-col gap-3">
             <img src={image} alt="" />
