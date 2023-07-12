@@ -14,8 +14,8 @@ export default function Example() {
 
   return (
     <div className="">
-      <header className="sticky top-0 z-20 flex h-20 w-full items-center justify-center px-5 xs:px-[50px] xl:px-0">
-        <nav className="w-full flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+      <header className="sticky top-0 z-20 flex h-20 w-full items-center justify-center px-4 xs:px-[50px] xl:px-0">
+        <nav className="w-full flex items-center justify-between md:p-6 lg:px-8" aria-label="Global">
         <Link to='/' className="logo text-2xl font-bebas text-slate-700"><span className='font-bold'>ジ</span>Jasper.io</Link>
           <div className="flex lg:hidden">
             <button

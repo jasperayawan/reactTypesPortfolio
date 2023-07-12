@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from './components/Footer'
+import Subscribe from "./components/Subscribe"
 
 function App() {
   return (
@@ -8,6 +9,8 @@ function App() {
       <Header/>
       
       <Outlet/>
+      
+      <Subscribe/>
       <Footer/>
     </div>
   )

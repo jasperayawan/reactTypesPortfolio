@@ -2,7 +2,7 @@ import meCoding from '../assets/me.jpg'
 
 export default function About(){
     return(
-        <div>
+        <div className='min-h-screen flex justify-center items-center pb-10'>
             <div className="mx-auto max-w-2xl flex flex-col justify-center items-center gap-3 px-4">
                 <img src={meCoding} alt="me" />
                 <div>

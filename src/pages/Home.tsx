@@ -4,7 +4,7 @@ import JasperImg from '../assets/jass.jpg'
 
 export default function Home(){
     return(
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center min-h-[90vh] py-24 md:py-0">
             <div className="w-full mx-auto md:max-w-6xl grid md:grid-cols-2 relative px-4 md:gap-24 place-items-center place-content-between">
                 <div className="absolute top-0 right-10 blur-[165px] circle -z-10 w-[300px] h-[300px] bg-indigo-500 rounded-full"></div>
                 <div className="col-span-1 flex-1 flex flex-col">
